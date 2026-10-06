@@ -1,0 +1,10 @@
+name: senior_design
+services:
+    senior_design:
+        build:
+            context: .
+        container_name: senior_design
+        image: senior_design
+        volumes:
+          - ./shared:/home/shared
+
